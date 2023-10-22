@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-image: url(../gambar/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    padding-bottom: 45px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(44, 18, 78);
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.navbar {
+    min-height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space space-between;
+    align-items: center;
+    gap: 60px
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+}
+
+ul{
+    margin-top: 0;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+     font-size: 16px;
+     font-weight: bold;
+     text-decoration: none;
+     color: white;
+     margin-top: 3%;
+     transition: 0.4s ease;
+}
+
+ul li a:hover{
+    color: #114ad1;
+}
+
+.isi {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.isi h1{
+    font-size: 65px;
+    color:rgb(36, 32, 30);
+}
+
+.isi h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.isi span{
+    color: rgb(160, 85, 10);
+}
+
+.gambar{
+    padding: 3%;
+    width: 30%;
+    height: 67%;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.gambar img{
+    position: absolute;
+    height:115%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.gambar:hover .boy{
+    left: 55%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
